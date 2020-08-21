@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+<!-- 填充内容-->
+{% block content %}
+<h2 align="center">{{ user['name'] }}个人信息</h2>
+<hr/>
+<ul>
+    <li>姓名：{{ user['name'] }}</li>
+    <li>密码：{{ user['password'] }}</li>
+    <li>性别：{{ user['gender'] }}</li>
+    <li>年龄：{{ user['age'] }}</li>
+    <li>生日：{{ user['age'] }}</li>
+</ul>
+
+{% endblock %}
